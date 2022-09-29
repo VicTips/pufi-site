@@ -81,7 +81,11 @@ h2 {
 }
 
 .link {
-  display: flex;
-  justify-content: center;
-  padding-top: 2rem;
+  display: inline-block;
+  margin: 2rem auto 0;
+  cursor: pointer;
+}
+
+.link:hover {
+  transform: scale(1.05);
 }

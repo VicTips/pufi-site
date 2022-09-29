@@ -22,7 +22,9 @@ const Cards = () => {
           </div>
           <h2>Pufi RAIN</h2>
           <p className={styles.card_description}>Descripción del producto. Este es un texto simulado</p>
-          <div className={styles.link} >{"> VER MAS"}</div>
+          <div className='d-flex justify-content-center'>
+            <div className={styles.link} >{"> VER MAS"}</div>
+          </div>
         </div>
       </div>
       <div className={styles.card}><div>
@@ -31,7 +33,9 @@ const Cards = () => {
         </div>
         <h2>Pufi PUFF</h2>
         <p className={styles.card_description}>Descripción del producto. Este es un texto simulado</p>
-        <div className={styles.link} >{"> VER MAS"}</div>
+        <div className='d-flex justify-content-center'>
+          <div className={styles.link} >{"> VER MAS"}</div>
+        </div>
       </div></div>
       <div className={styles.card}><img className={styles.card_image} src={image3} alt="3" /><div className={styles.arrow_right}></div></div>
       <div className={styles.card}><img className={styles.card_image} src={image2} alt="2" /><div className={styles.arrow_left}></div></div>
@@ -41,7 +45,9 @@ const Cards = () => {
         </div>
         <h2>Pufi CART</h2>
         <p className={styles.card_description}>Descripción del producto. Este es un texto simulado</p>
-        <div className={styles.link} >{"> VER MAS"}</div>
+        <div className='d-flex justify-content-center'>
+          <div className={styles.link} >{"> VER MAS"}</div>
+        </div>
       </div></div>
       <div className={styles.card}><div>
         <div className={styles.image_container}>
@@ -49,7 +55,9 @@ const Cards = () => {
         </div>
         <h2>Pufi NAP</h2>
         <p className={styles.card_description}>Descripción del producto. Este es un texto simulado</p>
-        <div className={styles.link} >{"> MÁS INFO"}</div>
+        <div className='d-flex justify-content-center'>
+          <div className={styles.link} >{"> MÁS INFO"}</div>
+        </div>
       </div></div>
       <div className={styles.card}><img className={styles.card_image} src={image4} alt="4" /><div className={styles.arrow_right}></div></div>
     </div>

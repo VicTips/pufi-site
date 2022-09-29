@@ -18,12 +18,12 @@ const Social = () => {
           #ESPUFI
         </h1>
         <div className={styles.images}>
-          <img src={image1} alt="1" height={150} />
-          <img src={image2} alt="2" height={150} />
-          <img src={image3} alt="3" height={150} />
-          <img src={image4} alt="4" height={150} />
-          <img src={image5} alt="5" height={150} />
-          <img src={image6} alt="6" height={150} />
+          <img className='pointer brightness' src={image1} alt="1" height={150} />
+          <img className='pointer brightness' src={image2} alt="2" height={150} />
+          <img className='pointer brightness' src={image3} alt="3" height={150} />
+          <img className='pointer brightness' src={image4} alt="4" height={150} />
+          <img className='pointer brightness' src={image5} alt="5" height={150} />
+          <img className='pointer brightness' src={image6} alt="6" height={150} />
         </div>
       </div>
     </section>

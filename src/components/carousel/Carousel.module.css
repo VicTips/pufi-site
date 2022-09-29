@@ -11,6 +11,7 @@
   margin: 0 auto 150px;
   max-width: 40rem;
   text-align: center;
+  text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
 }
 
 .btn {

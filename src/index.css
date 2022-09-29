@@ -30,3 +30,47 @@ code {
 .carousel {
   top: 0 !important;
 }
+
+.pointer {
+  cursor: pointer;
+}
+
+.brightness:hover {
+  filter: brightness(1.05);
+}
+
+#logo-facebook {
+  cursor: pointer;
+}
+
+#logo-facebook:hover {
+  transform: scale(1.05);
+}
+
+#logo-twitter {
+  cursor: pointer;
+}
+
+#logo-twitter:hover {
+  transform: scale(1.05);
+}
+
+#logo-instagram {
+  cursor: pointer;
+}
+
+#logo-instagram:hover {
+  transform: scale(1.05);
+}
+
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  border-radius: 0 !important;
+  border: 2px solid white !important;
+}
+
+.dropdown-item {
+  color: white !important;
+  font-size: 0.8rem !important;
+  cursor: pointer;
+}

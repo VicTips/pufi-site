@@ -8,16 +8,16 @@ const Footer = () => {
       <div className={styles.sections}>
         <div className={styles.logo}>Pufi<sup>®</sup></div>
         <div className={styles.links}>
-          <div>PUFI RAIN</div>
-          <div>PUFI PUFF</div>
-          <div>PUFI CART</div>
-          <div>PUFI NAP</div>
+          <div className='pointer'>PUFI RAIN</div>
+          <div className='pointer'>PUFI PUFF</div>
+          <div className='pointer'>PUFI CART</div>
+          <div className='pointer'>PUFI NAP</div>
         </div>
         <div className={`${styles.links} ${styles.border_left}`}>
-          <div>CONTACTO</div>
-          <div>AYUDA</div>
-          <div>CÓMO COMPRAR</div>
-          <div>TÉRMINOS Y CONDICIONES</div>
+          <div className='pointer'>CONTACTO</div>
+          <div className='pointer'>AYUDA</div>
+          <div className='pointer'>CÓMO COMPRAR</div>
+          <div className='pointer'>TÉRMINOS Y CONDICIONES</div>
         </div>
         <div className={styles.border_left}>
           COMPRA 100% SEGURA
@@ -32,9 +32,9 @@ const Footer = () => {
         <div className={`${styles.social} ${styles.border_left}`}>
           SEGUINOS EN
           <div className={styles.social_icons}>
-            <ion-icon name="logo-facebook"></ion-icon>
-            <ion-icon name="logo-twitter"></ion-icon>
-            <ion-icon name="logo-instagram"></ion-icon>
+            <ion-icon name="logo-facebook" id="logo-facebook"></ion-icon>
+            <ion-icon name="logo-twitter" id="logo-twitter"></ion-icon>
+            <ion-icon name="logo-instagram" id="logo-instagram"></ion-icon>
           </div>
         </div>
       </div>
