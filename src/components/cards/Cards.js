@@ -12,7 +12,10 @@ import styles from "./Cards.module.css"
 const Cards = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.card}><img className={styles.card_image} src={image1} alt="1" /></div>
+      <div className={`${styles.card} ${styles.bg_1}`}>
+        <button className={styles.shop_btn}>SHOP</button>
+        <div className={styles.arrow_left}></div>
+      </div>
       <div className={styles.card}>
         <div>
           <div className={styles.image_container}>
@@ -31,8 +34,8 @@ const Cards = () => {
         <p className={styles.card_description}>Descripción del producto. Este es un texto simulado</p>
         <div className={styles.link} >{"> VER MAS"}</div>
       </div></div>
-      <div className={styles.card}><img className={styles.card_image} src={image3} alt="3" /></div>
-      <div className={styles.card}><img className={styles.card_image} src={image2} alt="2" /></div>
+      <div className={styles.card}><img className={styles.card_image} src={image3} alt="3" /><div className={styles.arrow_right}></div></div>
+      <div className={styles.card}><img className={styles.card_image} src={image2} alt="2" /><div className={styles.arrow_left}></div></div>
       <div className={styles.card}><div>
         <div className={styles.image_container}>
           <img src={image8} alt="8" height={150} />
@@ -49,7 +52,7 @@ const Cards = () => {
         <p className={styles.card_description}>Descripción del producto. Este es un texto simulado</p>
         <div className={styles.link} >{"> MÁS INFO"}</div>
       </div></div>
-      <div className={styles.card}><img className={styles.card_image} src={image4} alt="4" /></div>
+      <div className={styles.card}><img className={styles.card_image} src={image4} alt="4" /><div className={styles.arrow_right}></div></div>
     </div>
   )
 }
