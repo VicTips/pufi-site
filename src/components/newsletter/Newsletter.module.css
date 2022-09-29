@@ -38,4 +38,6 @@ input {
   display: flex;
   margin-left: -2rem;
   cursor: pointer;
+  background-color: transparent;
+  border: none;
 }

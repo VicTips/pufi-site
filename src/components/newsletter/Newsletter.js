@@ -1,7 +1,21 @@
-import React from 'react'
-import styles from "./Newsletter.module.css"
+import React from 'react';
+import styles from "./Newsletter.module.css";
+import { useForm, ValidationError } from '@formspree/react';
 
 const Newsletter = () => {
+  const [state, handleSubmit] = useForm("mzbwgbdq");
+  if (state.succeeded) {
+    return <section className={styles.container}>
+      <div>
+        <div className={styles.section_title}>
+          NEWSLETTER
+        </div>
+        <h1>
+          ¡GRACIAS POR SUSCRIBIRTE!
+        </h1>
+      </div>
+    </section>;
+  }
   return (
     <section className={styles.container}>
       <div>
@@ -14,12 +28,17 @@ const Newsletter = () => {
         <p>
           Y enterate de todas las novedades
         </p>
-        <div className={styles.form}>
-          <input type="email" placeholder='Ingresa tu email' />
-          <div className={styles.arrow}>
+        <form className={styles.form} onSubmit={handleSubmit}>
+          <input id='email' name='email' type="email" placeholder='Ingresa tu email' />
+          <ValidationError
+            prefix="Email"
+            field="email"
+            errors={state.errors}
+          />
+          <button className={styles.arrow} type="submit" disabled={state.submitting}>
             <ion-icon name="arrow-forward-outline"></ion-icon>
-          </div>
-        </div>
+          </button>
+        </form>
       </div>
     </section>
   )
