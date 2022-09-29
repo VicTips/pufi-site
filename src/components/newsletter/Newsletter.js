@@ -16,9 +16,9 @@ const Newsletter = () => {
         </p>
         <div className={styles.form}>
           <input type="email" placeholder='Ingresa tu email' />
-          <button className={styles.arrow}>
+          <div className={styles.arrow}>
             <ion-icon name="arrow-forward-outline"></ion-icon>
-          </button>
+          </div>
         </div>
       </div>
     </section>

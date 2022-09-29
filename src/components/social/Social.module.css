@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0 0;
+}
+
+.section_title {
+  color: gray;
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  flex-wrap: wrap;
+  max-width: 30rem;
+  padding-top: 3rem;
+}

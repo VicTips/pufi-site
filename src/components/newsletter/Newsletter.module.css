@@ -1,7 +1,7 @@
 .container {
   display: flex;
   justify-content: center;
-  padding: 4rem;
+  padding: 4rem 0 6rem;
 }
 
 .section_title {
@@ -25,6 +25,8 @@ p {
 .form {
   display: flex;
   align-items: center;
+  justify-content: center;
+  margin-left: -1rem;
 }
 
 input {
@@ -33,10 +35,7 @@ input {
 }
 
 .arrow {
-  margin-left: -2.5rem;
-  font-size: 1.2rem;
-  margin-top: 0.25rem;
-  background-color: transparent;
-  border: none;
+  display: flex;
+  margin-left: -2rem;
   cursor: pointer;
 }

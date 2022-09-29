@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: space-between;
   border-top: solid 1px lightgray;
-  padding: 0.3rem 0 1rem;
+  padding: 0.3rem 0;
 }
 
 .copyright_container img {
