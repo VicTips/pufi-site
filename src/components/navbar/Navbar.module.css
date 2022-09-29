@@ -1,6 +1,6 @@
 .container {
   padding: 1rem 0;
-  background-color: black;
+  z-index: 1;
 }
 
 .navbar {
@@ -50,6 +50,7 @@
 .account {
   display: flex;
   gap: 0.4rem;
+  cursor: pointer;
 }
 
 .account_icon {

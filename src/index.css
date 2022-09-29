@@ -9,3 +9,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.carousel-indicators {
+  display: flex !important;
+  gap: 0.5rem !important;
+}
+
+.carousel-indicators button {
+  border-radius: 50% !important;
+  height: 0.6rem !important;
+  width: 0.6rem !important;
+  margin: 0px !important;
+  border: 2px solid transparent !important;
+}
+
+.active {
+  outline: 1px solid white !important;
+}
+
+.carousel {
+  top: 0 !important;
+}

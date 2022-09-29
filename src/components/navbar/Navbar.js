@@ -3,7 +3,7 @@ import styles from "./Navbar.module.css"
 
 const Navbar = () => {
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} position-absolute w-100`}>
       <div className={styles.navbar}>
         <div className={styles.logo}>
           Pufi<sup>®</sup>
