@@ -8,16 +8,16 @@ const Footer = () => {
       <div className={styles.sections}>
         <div className={styles.logo}>Pufi<sup>®</sup></div>
         <div className={styles.links}>
-          <a href='#'>PUFI RAIN</a>
-          <a href='#'>PUFI PUFF</a>
-          <a href='#'>PUFI CART</a>
-          <a href='#'>PUFI NAP</a>
+          <div>PUFI RAIN</div>
+          <div>PUFI PUFF</div>
+          <div>PUFI CART</div>
+          <div>PUFI NAP</div>
         </div>
         <div className={`${styles.links} ${styles.border_left}`}>
-          <a href='#'>CONTACTO</a>
-          <a href='#'>AYUDA</a>
-          <a href='#'>CÓMO COMPRAR</a>
-          <a href='#'>TÉRMINOS Y CONDICIONES</a>
+          <div>CONTACTO</div>
+          <div>AYUDA</div>
+          <div>CÓMO COMPRAR</div>
+          <div>TÉRMINOS Y CONDICIONES</div>
         </div>
         <div className={styles.border_left}>
           COMPRA 100% SEGURA

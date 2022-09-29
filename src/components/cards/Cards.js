@@ -20,7 +20,7 @@ const Cards = () => {
           </div>
           <h2>Pufi RAIN</h2>
           <p className={styles.card_description}>Descripción del producto. Este es un texto simulado</p>
-          <a className={styles.link} href='#'>{"> VER MAS"}</a>
+          <div className={styles.link} >{"> VER MAS"}</div>
         </div>
       </div>
       <div className={styles.card}><div>
@@ -29,7 +29,7 @@ const Cards = () => {
         </div>
         <h2>Pufi PUFF</h2>
         <p className={styles.card_description}>Descripción del producto. Este es un texto simulado</p>
-        <a className={styles.link} href='#'>{"> VER MAS"}</a>
+        <div className={styles.link} >{"> VER MAS"}</div>
       </div></div>
       <div className={styles.card}><img className={styles.card_image} src={image3} alt="3" /></div>
       <div className={styles.card}><img className={styles.card_image} src={image2} alt="2" /></div>
@@ -39,7 +39,7 @@ const Cards = () => {
         </div>
         <h2>Pufi CART</h2>
         <p className={styles.card_description}>Descripción del producto. Este es un texto simulado</p>
-        <a className={styles.link} href='#'>{"> VER MAS"}</a>
+        <div className={styles.link} >{"> VER MAS"}</div>
       </div></div>
       <div className={styles.card}><div>
         <div className={styles.image_container}>
@@ -47,7 +47,7 @@ const Cards = () => {
         </div>
         <h2>Pufi NAP</h2>
         <p className={styles.card_description}>Descripción del producto. Este es un texto simulado</p>
-        <a className={styles.link} href='#'>{"> MÁS INFO"}</a>
+        <div className={styles.link} >{"> MÁS INFO"}</div>
       </div></div>
       <div className={styles.card}><img className={styles.card_image} src={image4} alt="4" /></div>
     </div>

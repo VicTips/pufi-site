@@ -43,7 +43,5 @@ h2 {
 .link {
   display: flex;
   justify-content: center;
-  text-decoration: none;
-  color: black;
   padding-top: 2rem;
 }
