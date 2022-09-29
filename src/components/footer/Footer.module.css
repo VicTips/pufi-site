@@ -4,13 +4,13 @@
 }
 
 .copyright_container {
-  max-width: 1280px;
+  max-width: calc(1280px - 4rem);
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-top: solid 1px lightgray;
-  padding: 0.3rem 0;
+  padding: 0.3rem;
 }
 
 .copyright_container img {
@@ -38,6 +38,7 @@
   font-size: 2rem;
   font-weight: 900;
   padding-right: 4rem;
+  padding-left: 2rem;
 }
 
 .links {

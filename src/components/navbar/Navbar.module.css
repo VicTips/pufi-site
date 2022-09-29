@@ -1,0 +1,63 @@
+.container {
+  padding: 1rem 0;
+  background-color: black;
+}
+
+.navbar {
+  max-width: calc(1280px - 4rem);
+  margin: 0 auto;
+  color: white;
+  display: flex;
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: 900;
+  flex: 1;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex: 4;
+}
+
+.category_icon {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.category_name {
+  font-size: 0.8rem;
+  padding-top: 0.3rem;
+}
+
+.divider {
+  width: 1px;
+  background: lightgray;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.1rem;
+  flex: 1;
+}
+
+.account {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.account_icon {
+  margin-top: 0.05rem;
+}
+
+.divider_2 {
+  width: 1px;
+  margin-bottom: 2.5rem;
+  background: lightgray;
+}
