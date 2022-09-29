@@ -1,8 +1,52 @@
 import React from 'react'
+import styles from './Footer.module.css'
+import Logo from "../../assets/images/brandlive-logo.svg"
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <section className={styles.container}>
+      <div className={styles.sections}>
+        <div className={styles.logo}>Pufi<sup>®</sup></div>
+        <div className={styles.links}>
+          <a href='#'>PUFI RAIN</a>
+          <a href='#'>PUFI PUFF</a>
+          <a href='#'>PUFI CART</a>
+          <a href='#'>PUFI NAP</a>
+        </div>
+        <div className={`${styles.links} ${styles.border_left}`}>
+          <a href='#'>CONTACTO</a>
+          <a href='#'>AYUDA</a>
+          <a href='#'>CÓMO COMPRAR</a>
+          <a href='#'>TÉRMINOS Y CONDICIONES</a>
+        </div>
+        <div className={styles.border_left}>
+          COMPRA 100% SEGURA
+          <div className={styles.warranty_icons}>
+            <ion-icon name="qr-code-outline"></ion-icon>
+            <ion-icon name="shield-half-outline"></ion-icon>
+            <div className={styles.warranty_text}>
+              COMPRÁ CON LA GARANTÍA DE PUFI
+            </div>
+          </div>
+        </div>
+        <div className={`${styles.social} ${styles.border_left}`}>
+          SEGUINOS EN
+          <div className={styles.social_icons}>
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+          </div>
+        </div>
+      </div>
+      <div className={styles.copyright_container}>
+        <div className={styles.copyright}>
+          PUFI Copyright 2017 - Todos los derechos reservados
+        </div>
+        <div>
+          <img src={Logo} alt="brandlive" />
+        </div>
+      </div>
+    </section>
   )
 }
 
