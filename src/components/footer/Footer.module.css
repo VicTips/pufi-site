@@ -4,6 +4,8 @@
 }
 
 .copyright_container {
+  max-width: 1280px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -25,6 +27,8 @@
   font-size: 0.8rem;
   letter-spacing: 0.05rem;
   font-weight: 600;
+  max-width: 1280px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   padding-bottom: 4rem;
